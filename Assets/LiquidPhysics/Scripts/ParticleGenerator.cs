@@ -12,7 +12,7 @@ using System.Collections;
 /// </summary>
 
 public class ParticleGenerator : MonoBehaviour {		
-	float SPAWN_INTERVAL=0.025f; // How much time until the next particle spawns
+	public float SPAWN_INTERVAL=0.025f; // How much time until the next particle spawns
 	float lastSpawnTime=float.MinValue; //The last spawn time
 	public int PARTICLE_LIFETIME=3; //How much time will each particle live
 	public Vector3 particleForce; //Is there a initial force particles should have?
